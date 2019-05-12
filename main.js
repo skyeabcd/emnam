@@ -1,10 +1,10 @@
 //const Discord = require('discord.js')
 //const client = new Discord.Client()
 const sqlite = require('sqlite');
-const Commando = require('discord.js-commando')
+const commando = require('discord.js-commando')
 const { prefix, token } = require('./config.json');
 
-const client = new Commando.Client({
+const client = new commando.Client({
     owner: '305722491471659011',
     commandPrefix: prefix
 });
@@ -27,7 +27,7 @@ client.registry
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.setProvider(
-    sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new Commando.SQLiteProvider(db))
+    sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new commando.SQLiteProvider(db))
 ).catch(console.error);
 
 
@@ -65,13 +65,13 @@ client
 //         message.channel.send('Boop.');
 //     } else if (command === `chat`) {
 //         // send message to wit
-   
+
 //     }
 // });
 
 // wit_client.message(args.join(" ") , {})
 // .then((data) => {
-    
+
 // })
 // .catch(console.error);
 // Get your bot's secret token from:
