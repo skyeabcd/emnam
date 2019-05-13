@@ -35,7 +35,7 @@ module.exports = class chatCommand extends commando.Command {
     var rep = "uk";
     var intent = "unknown";
     if (!args.length){
-      rep = this.getRandom(lines["empty"]);
+      rep = await this.getRandom(lines["empty"]);
     }
     else{
       var res = await wit_client.message(args , {});
@@ -43,10 +43,10 @@ module.exports = class chatCommand extends commando.Command {
       if(res.entities.intent)
       {
         intent = res.entities.intent[0].value
-        rep = this.getRandom(lines[intent]);
+        rep = await this.getRandom(lines[intent]);
       }
       else
-        rep = this.getRandom(lines["unknown"]);
+        rep = await this.getRandom(lines["unknown"]);
     }
     var options = {}
     if(intent_respond.text.indexOf(intent) >= 0){
