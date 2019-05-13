@@ -9,7 +9,7 @@ const client = new commando.Client({
     commandPrefix: prefix
 });
 
-//https://discordapp.com/oauth2/authorize?client_id=576871428650172457&scope=bot
+//https://discordapp.com/oauth2/authorize?client_id=577326542758215687&scope=bot
 
 
 const path = require('path');
