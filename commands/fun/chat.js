@@ -65,4 +65,3 @@ module.exports = class chatCommand extends commando.Command {
   }
 
 }
-z
