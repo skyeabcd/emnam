@@ -1,6 +1,8 @@
 {
   "empty":
-    ["nói gì đi"],
+    ["nói gì đi"
+      ,"ded"
+      ,"ứ ứ"],
   "greeting":
     ["chào :)"
     , "hi"
@@ -11,7 +13,7 @@
     , "dzạ mẹ"
     , "ơi"],
   "name_get":
-    [ "mình tên là Nấm :3"],
+    [ "mình tên là Nấm :3","mình là Em Nấm nek"],
   "swear": 
     [ "du ma may"
     ,"du con di me may"
@@ -19,6 +21,7 @@
     , "muốn đụ tao hay gì ?"
     , "lạ lone nhỉ ?"],
   "unknown":
-    ["uk",
-    "k hỉu ?"]
+    ["uk"
+    ,"k hỉu ?"
+    ,"em nói là nói clq gì"]
 }

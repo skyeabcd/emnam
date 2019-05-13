@@ -16,7 +16,7 @@ try{
     console.log(err)
 }
 const images = data.split('\r\n')
-
+console.log("Loaded images:" + images)
 const intent_respond = {
   text: ["calling","swear", "name_get", "greeting", "empty", "unknown"],
   image: ["calling", "name_get"]
@@ -54,8 +54,9 @@ module.exports = class chatCommand extends commando.Command {
       console.log(`Send text: ${rep}`)
     }
     if(intent_respond.image.indexOf(intent) >= 0){
-      console.log(`Send text: ${rep}`)
-      options["files"]  = [this.getRandom(images)];
+      var file = await this.getRandom(images)
+      console.log(`Send file: ${file}`)
+      options["files"]  = [file];
     }
     message.reply(rep, options)
   }
@@ -64,3 +65,4 @@ module.exports = class chatCommand extends commando.Command {
   }
 
 }
+z
