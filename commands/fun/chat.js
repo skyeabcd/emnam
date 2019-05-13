@@ -30,14 +30,15 @@ module.exports = class chatCommand extends commando.Command {
       if(res.entities.intent)
       {
         var intent = res.entities.intent[0].value
-        if(intent_respond.text.indexOf(intent)){
           rep = this.getRandom(lines[intent]);
-        }
+        
       }
       else
         rep = this.getRandom(lines["unknown"]);
     }
-    message.reply(rep);
+    if(intent_respond.text.indexOf(intent)){
+      message.reply(rep);
+    }
   }
   getRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
