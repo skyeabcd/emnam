@@ -54,6 +54,7 @@ module.exports = class chatCommand extends commando.Command {
       console.log(`Send text: ${rep}`)
     }
     if(intent_respond.image.indexOf(intent) >= 0){
+      console.log(`Send text: ${rep}`)
       options["files"]  = [this.getRandom(images)];
     }
     message.reply(rep, options)
