@@ -6,12 +6,18 @@
     , "hi"
     , "hello"
     , "meo meo ÒwÓ"],
+  "calling":
+    ["lone què gì dzậy ??"
+    , "dzạ mẹ"
+    , "ơi"],
   "name_get":
-    ["mình tên là Nấm :3"],
+    [ "mình tên là Nấm :3"],
   "swear": 
-    ["du ma may"
-    , "con di Quyen Chinh ?"
-    , "muon du tao hay gi ?"],
+    [ "du ma may"
+    ,"du con di me may"
+    , "con đỹ Quyền Chinh ?"
+    , "muốn đụ tao hay gì ?"
+    , "lạ lone nhỉ ?"],
   "unknown":
     ["uk",
     "k hỉu ?"]

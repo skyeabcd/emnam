@@ -7,7 +7,7 @@ const wit_client = new Wit({
 });
 const lines = require('../../lines.json');
 const intent_respond = {
-  text: ["swear", "name_get", "greeting", "empty", "unknown"]
+  text: ["calling","swear", "name_get", "greeting", "empty", "unknown"]
 }
 module.exports = class chatCommand extends commando.Command {
   constructor(client) {
@@ -30,13 +30,13 @@ module.exports = class chatCommand extends commando.Command {
       if(res.entities.intent)
       {
         var intent = res.entities.intent[0].value
-          rep = this.getRandom(lines[intent]);
-        
+        rep = this.getRandom(lines[intent]);
       }
       else
         rep = this.getRandom(lines["unknown"]);
     }
-    if(intent_respond.text.indexOf(intent)){
+    if(intent_respond.text.indexOf(intent) >= 0){
+      console.log(`Send text: ${rep}`)
       message.reply(rep);
     }
   }
