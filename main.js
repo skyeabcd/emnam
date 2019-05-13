@@ -2,7 +2,7 @@
 //const client = new Discord.Client()
 const sqlite = require('sqlite');
 const commando = require('discord.js-commando')
-const { prefix, token } = require('./config.json');
+const { prefix, token } = require('./get_config');
 
 const client = new commando.Client({
     owner: '305722491471659011',

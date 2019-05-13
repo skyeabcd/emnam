@@ -1,6 +1,6 @@
 const commando = require('discord.js-commando');
 const {Wit, log} = require('node-wit');
-const {wit_ai_token} = require('../../config.json');
+const {wit_ai_token} = require('../../get_config');
 const wit_client = new Wit({
     accessToken: wit_ai_token,
     logger: new log.Logger(log.DEBUG) // optional
