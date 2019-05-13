@@ -46,37 +46,4 @@ client
 		console.error(`Error in command ${cmd.groupID}:${cmd.memberName}`, err);
 	})
 
-// client.on('ready', () => {
-//     // List servers the bot is connected to
-//     console.log("Servers:")
-//     client.guilds.forEach((guild) => {
-//         console.log(" - " + guild.name)
-//     })
-// })
-
-// client.on('message', message => {
-//     if (!message.content.startsWith(prefix) || message.author.bot) return;
-//     const args = message.content.slice(prefix.length).split(' ');
-//     const command = args.shift().toLowerCase();
-
-//     console.log("Message:" + message.content)
-// 	if (command === `ping`) {
-//         message.channel.send('Pong.');
-//     } else if (command === `beep`) {
-//         message.channel.send('Boop.');
-//     } else if (command === `chat`) {
-//         // send message to wit
-
-//     }
-// });
-
-// wit_client.message(args.join(" ") , {})
-// .then((data) => {
-
-// })
-// .catch(console.error);
-// Get your bot's secret token from:
-// https://discordapp.com/developers/applications/
-// Click on your application -> Bot -> Token -> "Click to Reveal Token"
-
 client.login(token)
