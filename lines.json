@@ -1,0 +1,13 @@
+{
+  "empty":
+    ["nói gì đi"],
+  "greeting":
+    ["chào :)"
+    , "hi"
+    , "hello"],
+  "name_get":
+    ["mình tên là Nấm :3"],
+  "unknown":
+    ["uk",
+    "k hỉu "]
+}
