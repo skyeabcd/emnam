@@ -23,7 +23,7 @@ const wit_client = new Wit({
 module.exports = class chatCommand extends commando.Command {
   constructor(client) {
       super(client, {
-          name: 'chat',
+          name: 'c',
           group: 'fun',
           memberName: 'chat',
           description: 'Meo meo.',
