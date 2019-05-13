@@ -4,24 +4,22 @@ const fs = require('fs')
 const lines = require('../../lines.json');
 const {wit_ai_token} = require('../../get_config');
 
-const wit_client = new Wit({
-    accessToken: wit_ai_token,
-    logger: new log.Logger(log.DEBUG) // optional
-});
-
 var filename = "hinhtihon.txt"
 try{
     var data = fs.readFileSync(filename, 'utf8')
 }catch(err){
     console.log(err)
 }
-const images = data.split('\r\n')
+const images = data.split('\n')
 console.log("Loaded images:" + images)
 const intent_respond = {
   text: ["calling","swear", "name_get", "greeting", "empty", "unknown"],
   image: ["calling", "name_get"]
 }
-
+const wit_client = new Wit({
+  accessToken: wit_ai_token,
+  logger: new log.Logger(log.DEBUG) // optional
+});    
 module.exports = class chatCommand extends commando.Command {
   constructor(client) {
       super(client, {
@@ -30,6 +28,7 @@ module.exports = class chatCommand extends commando.Command {
           memberName: 'chat',
           description: 'Meo meo.',
       });
+     
   }
 
   async run(message, args) {
