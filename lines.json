@@ -4,14 +4,15 @@
   "greeting":
     ["chào :)"
     , "hi"
-    , "hello"],
+    , "hello"
+    , "meo meo ÒwÓ"],
   "name_get":
     ["mình tên là Nấm :3"],
   "swear": 
     ["du ma may"
-    , "con di Quyen Chinh"
-    , "muon du tao hay gi"],
+    , "con di Quyen Chinh ?"
+    , "muon du tao hay gi ?"],
   "unknown":
     ["uk",
-    "k hỉu "]
+    "k hỉu ?"]
 }
