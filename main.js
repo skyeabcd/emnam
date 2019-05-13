@@ -1,5 +1,6 @@
 //const Discord = require('discord.js')
 //const client = new Discord.Client()
+const PORT = process.env.PORT || 5000
 const sqlite = require('sqlite');
 const commando = require('discord.js-commando')
 const { prefix, token } = require('./get_config');
