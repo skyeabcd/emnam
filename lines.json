@@ -1,27 +1,68 @@
 {
-  "empty":
-    ["nói gì đi"
-      ,"ded"
-      ,"ứ ứ"],
-  "greeting":
-    ["chào :)"
-    , "hi"
-    , "hello"
-    , "meo meo ÒwÓ"],
-  "calling":
-    ["lone què gì dzậy ??"
-    , "dzạ mẹ"
-    , "ơi"],
-  "name_get":
-    [ "mình tên là Nấm :3","mình là Em Nấm nek"],
-  "swear": 
-    [ "du ma may"
-    ,"du con di me may"
-    , "con đỹ Quyền Chinh ?"
-    , "muốn đụ tao hay gì ?"
-    , "lạ lone nhỉ ?"],
-  "unknown":
-    ["uk"
-    ,"k hỉu ?"
-    ,"em nói là nói clq gì"]
+  "empty": [
+    "nói gì đi",
+    "ded",
+    "ứ ứ"
+  ],
+  "greeting": [
+    "chào :)",
+    "hi",
+    "hello",
+    "meo meo ÒwÓ",
+    "chào bạn",
+    "hú hú",
+    "howdy-doody!",
+    "dzô!",
+    "timmmmm",
+    "hello, chờ tao đi đái chút xíu tao quay lại"
+  ],
+  "calling": [
+    "loz què gì dzậy??",
+    "dạ mẹ",
+    "ơi",
+    "sao nak :)",
+    "gì dị má?",
+    "gì đó?"
+  ],
+  "name_get": [
+    "mình tên là Nấm :3",
+    "mình là Em Nấm nek",
+    "mình là một nàng công chúa bí ẩn"
+  ],
+  "swear": [
+    "du ma may",
+    "du con di me may",
+    "con đ* Quyền Chinh?",
+    "muốn đ tao hay gì?",
+    "ngộ nghĩnh nhỉ? lạ loz nhỉ?",
+    "thôi đừng chửi bậy nữa mình không thích đâu",
+    "tại sao bạn lại chửi bậy?",
+    "máy mày",
+    "cái bản mặt của mày đm nó xấu tàn nhẫn tàn canh mà không biết thân phận của mình",
+    "dòng thứ chổi phù thủy tao nhét vô mồm mày nghe chưa?",
+    "bây thấy đm nó vô lý vl hok?"
+  ],
+  "unknown": [
+    "uk",
+    "hok hiểu?",
+    "em nói là nói clq gì",
+    "gì dzị",
+    "có gì vui hok",
+    "xàm",
+    "bạn là một con điên bị ma nhập",
+    "bạn có biết 550 chia 2 bằng bao nhiêu hok?",
+    "có bao giờ bạn cảm thấy thương thấy nhớ da diết sức tàn lực kiệt mà vẫn mài miệt công việc, nhớ và nhớ một người đặc biệt nào chưa nà",
+    "đồ con bóng Long Xiên",
+    "bóng giả trai là ụ nai ụ bò nha",
+    "họa mi họa mi hót trong lùm cây",
+    "parabẻn?",
+    "vui ghê haaa",
+    "đi chơi game đi bạn :)",
+    "cạnh bên một người vô tâm, là nước mắt tuôn âm thầm",
+    "mình thích bạn, nhưng bạn không thích mình",
+    "cuộc đời của mình thật là đau khổ",
+    "mình là M, bạn có phải là S hok???",
+    "Người tiện tay vẽ hoa vẽ lá, ta đa tình tưởng đó là mùa xuân.",
+    "Có lòng trồng hoa, hoa chẳng nở. Vô tình cắm liễu, liễu lại xanh :-<."
+  ]
 }
