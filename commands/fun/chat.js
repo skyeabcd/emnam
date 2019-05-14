@@ -20,13 +20,15 @@ const wit_client = new Wit({
   accessToken: wit_ai_token,
   logger: new log.Logger(log.DEBUG) // optional
 });    
-module.exports = class chatCommand extends commando.Command {
+module.exports = class UnknownCommandCommand extends commando.Command {
   constructor(client) {
       super(client, {
-          name: 'c',
-          group: 'fun',
-          memberName: 'chat',
-          description: 'Meo meo.',
+        name: 'c',
+        group: 'fun',
+        memberName: 'chat',
+        description: 'Meo meo.',
+        unknown: true,
+        hidden: true
       });
      
   }

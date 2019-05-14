@@ -1,9 +1,5 @@
 {
-  "empty": [
-    "nói gì đi",
-    "ded",
-    "ứ ứ"
-  ],
+  "empty": ["nói gì đi", "ded", "ứ ứ"],
   "greeting": [
     "chào :)",
     "hi",
@@ -51,18 +47,32 @@
     "xàm",
     "bạn là một con điên bị ma nhập",
     "bạn có biết 550 chia 2 bằng bao nhiêu hok?",
-    "có bao giờ bạn cảm thấy thương thấy nhớ da diết sức tàn lực kiệt mà vẫn mài miệt công việc, nhớ và nhớ một người đặc biệt nào chưa nà",
     "đồ con bóng Long Xiên",
     "bóng giả trai là ụ nai ụ bò nha",
     "họa mi họa mi hót trong lùm cây",
     "parabẻn?",
     "vui ghê haaa",
     "đi chơi game đi bạn :)",
-    "cạnh bên một người vô tâm, là nước mắt tuôn âm thầm",
-    "mình thích bạn, nhưng bạn không thích mình",
     "cuộc đời của mình thật là đau khổ",
-    "mình là M, bạn có phải là S hok???",
+    "mình là M, bạn có phải là S hok???"
+  ],
+  "love": [
+    "crush của bạn, sẽ không bao giờ thích lại bạn",
+    "mình thích bạn, nhưng bạn không thích mình",
+    "cạnh bên một người vô tâm, là nước mắt tuôn âm thầm",
     "Người tiện tay vẽ hoa vẽ lá, ta đa tình tưởng đó là mùa xuân.",
-    "Có lòng trồng hoa, hoa chẳng nở. Vô tình cắm liễu, liễu lại xanh :-<."
+    "có bao giờ bạn cảm thấy thương thấy nhớ da diết sức tàn lực kiệt mà vẫn mài miệt công việc, nhớ và nhớ một người đặc biệt nào chưa nà?",
+    "mình cũng thích bạn",
+    "đừng đùa giỡn với tình cảm của mình nữa",
+    "bạn muốn gì?",
+    "chúng ta có thể trở thành một cặp hok?",
+    "mình cũng thích bạn lâu rồi"
+  ],
+  "sad": [
+    "vì sao bạn buồn?",
+    "có chuyện gì vậy?",
+    "đừng buồn nữa",
+    "buồn thì đi ăn với mình nè :)",
+    "ngoan nè"
   ]
 }
