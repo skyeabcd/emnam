@@ -32,12 +32,6 @@ client.registry
 
 
 client
-    // .on('unknownCommand', (message) => {
-    //     //if (message.isMentioned(client.user)){
-    //         // console.log("MENTION");
-    //         client.registry.commands.get('c').run(message, message.content)
-    //     //}
-    // })
     .on('message', (message) =>{
         if (message.isMentioned(client.user)){
             console.log(`<@${client.user.id}>`);
